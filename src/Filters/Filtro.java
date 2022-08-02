@@ -1,12 +1,12 @@
+package Filters;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Filter {
+public class Filtro {
 
     int cont;
     int end;
-    List <Integer> guard = new ArrayList <Integer>();
-    void filtroDigitoMaximo(int maxDigit){
+    public void filtroDigitoMaximo(List <Integer> guard, int maxDigit){
         for (int start = 1000; start<= 9999; start++){
            end = start;
             while (end!= 0){
@@ -15,7 +15,6 @@ public class Filter {
             }else{
                 end = end / 10;
                 cont = cont + 1;
-                end = end / 10;
             }
             if (cont == 4){
                 guard.add(start);

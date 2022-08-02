@@ -1,3 +1,5 @@
+package Home;
+
 public class Challenge {
 
   /**Construa um programa que devolva todos os inteiros de 4 digitos cuja soma seja igual a 21. Nenhum dígito do número dever
@@ -6,5 +8,6 @@ public class Challenge {
    */
   public static void main(String[] args) {
     
+
   }
 }
